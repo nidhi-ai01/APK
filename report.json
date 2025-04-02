@@ -1,0 +1,39 @@
+{
+    "APK": "C:\\Users\\CybroNidhi\\Documents\\Project@IITH\\samples\\benign\\report.apk",
+    "Permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.ACCESS_WIFI_STATE",
+        "android.permission.VIBRATE",
+        "com.google.android.c2dm.permission.RECEIVE",
+        "android.permission.WAKE_LOCK"
+    ],
+    "Intents": {
+        "com.hp.marketingreport.HomeActivity": {
+            "actions": [],
+            "categories": [],
+            "data": []
+        },
+        "com.hp.marketingreport.AuthenticationActivity": {
+            "actions": [],
+            "categories": [],
+            "data": []
+        },
+        "com.google.firebase.auth.internal.GenericIdpActivity": {
+            "actions": [],
+            "categories": [],
+            "data": []
+        },
+        "com.google.firebase.auth.internal.RecaptchaActivity": {
+            "actions": [],
+            "categories": [],
+            "data": []
+        },
+        "com.google.android.gms.common.api.GoogleApiActivity": {
+            "actions": [],
+            "categories": [],
+            "data": []
+        }
+    }
+}
