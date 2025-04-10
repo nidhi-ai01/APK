@@ -43,7 +43,7 @@ def save_to_json(data, output_file):
         print(f"❌ Error saving JSON: {e}")
 
 if __name__ == "__main__":
-    apk_dir = r"C:\Users\CybroNidhi\Documents\Project_IITH\samples"
+    apk_dir = r"C:\Users\CybroNidhi\Documents\Project_IITH\samples\benign"
     output_dir = r"C:\Users\CybroNidhi\Documents\Project_IITH\raw_features"
 
     for apk_file in glob.glob(os.path.join(apk_dir, "**", "*.apk"), recursive=True):

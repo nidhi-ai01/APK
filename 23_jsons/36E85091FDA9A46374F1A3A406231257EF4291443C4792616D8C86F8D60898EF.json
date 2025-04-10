@@ -1,0 +1,12 @@
+{
+    "permissions": [],
+    "main_activity": null,
+    "activities": [
+        "com.github.poke.tweeplusreader.TweePlusReader",
+        "com.github.poke.tweeplusreader.TwiccaPluginActivity"
+    ],
+    "services": [],
+    "receivers": [],
+    "providers": [],
+    "libraries": []
+}

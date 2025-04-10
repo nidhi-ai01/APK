@@ -1,0 +1,40 @@
+{
+    "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.ACCESS_WIFI_STATE",
+        "android.permission.VIBRATE",
+        "com.google.android.c2dm.permission.RECEIVE",
+        "android.permission.WAKE_LOCK"
+    ],
+    "main_activity": "com.hp.marketingreport.AuthenticationActivity",
+    "activities": [
+        "com.hp.marketingreport.HomeActivity",
+        "com.hp.marketingreport.AuthenticationActivity",
+        "com.google.firebase.auth.internal.GenericIdpActivity",
+        "com.google.firebase.auth.internal.RecaptchaActivity",
+        "com.google.android.gms.common.api.GoogleApiActivity"
+    ],
+    "services": [
+        "com.hp.marketingreport.PushNotificationService",
+        "com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService",
+        "com.google.firebase.components.ComponentDiscoveryService",
+        "com.google.firebase.messaging.FirebaseMessagingService",
+        "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+        "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+    ],
+    "receivers": [
+        "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+        "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+    ],
+    "providers": [
+        "com.google.firebase.provider.FirebaseInitProvider",
+        "androidx.startup.InitializationProvider"
+    ],
+    "libraries": [
+        "org.apache.http.legacy",
+        "androidx.window.extensions",
+        "androidx.window.sidecar"
+    ]
+}
