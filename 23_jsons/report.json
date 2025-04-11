@@ -1,4 +1,10 @@
 {
+    "app_name": "Marketing Report Admin",
+    "package_name": "com.hp.marketingreport",
+    "version_name": "1.0",
+    "version_code": "1",
+    "min_sdk": "24",
+    "target_sdk": "32",
     "permissions": [
         "android.permission.READ_EXTERNAL_STORAGE",
         "android.permission.INTERNET",
